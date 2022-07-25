@@ -1,0 +1,14 @@
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+.header-logo h1 {
+    margin-left: 10px;
+    color: #61dbfb;
+}

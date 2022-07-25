@@ -1,5 +1,10 @@
+import './Header.css';
+import HeaderLogo from '../../components/HeaderLogo/HeaderLogo';
+
 export default function Header() {
   return (
-    <div>Header</div>
+    <div className="header-container">
+      <HeaderLogo />
+    </div>
   )
 }
