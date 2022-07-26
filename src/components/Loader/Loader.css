@@ -1,0 +1,37 @@
+.loader{
+    width:100px;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px 20px;
+  }
+  @keyframes load{
+    50%{
+      transform:rotatez(180deg) scale(0.2);
+      border-color:#61dbfb;
+    }
+    100%{
+      transform:rotatez(360deg) scale(1.1);
+    }
+  }
+
+  .loader2::before{
+    content:"";
+    color:white;
+    height:30px;
+    width:30px;
+    background:transparent;
+    border-radius:10%;
+    border:25px inset #61dbfb;
+    animation:load2 1s infinite ease-in-out;
+  }
+  @keyframes load3{
+    50%{
+      transform:rotatez(180deg) scale(1.5);
+      border-style:dotted;
+    }
+    100%{
+      transform:rotatez(360deg) scale(0.9);
+    }
+  }

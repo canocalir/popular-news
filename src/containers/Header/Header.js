@@ -4,12 +4,16 @@ import HeaderLogo from "../../components/HeaderLogo/HeaderLogo";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import PageHeading from "../../components/PageHeading/PageHeading";
 import SingleNews from "../../components/SingleNews/SingleNews";
+
+
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Loader from "../../components/Loader/Loader";
 
 export default function Header() {
   const [news, setNews] = useState([]);
   const [filteredData, setFilteredData] = useState(news);
+  const [isLoading, setLoading] = useState(true);
 
   const handleSearch = (e) => {
     let value = e.target.value.toLowerCase();
@@ -28,6 +32,7 @@ export default function Header() {
 
       setNews(res.data);
       setFilteredData(res.data);
+      setLoading(false);
     };
     fetchData();
   }, []);
@@ -40,7 +45,7 @@ export default function Header() {
       </div>
       <PageHeading />
       <div className="content-container">
-        <SingleNews news={filteredData} />
+        {isLoading ? <Loader /> : <SingleNews news={filteredData} />}
       </div>
     </>
   );
