@@ -15,7 +15,7 @@ export default function Header() {
     let value = e.target.value.toLowerCase();
     let result = [];
     result = news.filter((data) => {
-      return data.tags.search(value) != -1;
+      return data.tags.search(value) !== -1;
     });
     setFilteredData(result);
   };
