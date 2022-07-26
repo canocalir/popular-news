@@ -106,7 +106,7 @@ figure.snip1312.hover img {
 }
 
 .search-alert {
-  width: 95vh;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   padding: 20px;
 }
