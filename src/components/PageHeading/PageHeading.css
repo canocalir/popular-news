@@ -1,0 +1,16 @@
+.pageheading {
+    height: 50px;
+    text-align: center;
+background: #226E8E;
+background: -webkit-linear-gradient(right, #226E8E, #40E5E0);
+background: -moz-linear-gradient(right, #226E8E, #40E5E0);
+background: linear-gradient(to left, #226E8E, #40E5E0);
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.pageheading h2 {
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+}
