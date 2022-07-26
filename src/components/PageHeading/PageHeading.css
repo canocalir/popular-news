@@ -14,3 +14,9 @@
   padding: 10px;
   color: #fff;
 }
+
+@media screen and (max-width: 768px){
+  .pageheading h2 {
+    font-size: 1em;
+  }
+}
