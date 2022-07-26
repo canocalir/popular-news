@@ -23,7 +23,7 @@ export default function Header() {
   useEffect(() => {
     const fetchData = async () => {
       const res = await axios(
-        "https://dev.to/api/articles/latest?per_page=100&tag=react"
+        "https://dev.to/api/articles/latest?per_page=50&tag=react"
       );
 
       setNews(res.data);
