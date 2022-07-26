@@ -104,3 +104,9 @@ figure.snip1312.hover img {
   -webkit-transform: scale(1.15);
   transform: scale(1.15);
 }
+
+.search-alert {
+  width: 95vh;
+  text-align: center;
+  padding: 20px;
+}
