@@ -1,20 +1,20 @@
 .footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    text-transform: uppercase;
-    background-color: #000;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #000;
+  width: 100%;
 }
 
 .footer-container p {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .footer-container h5 {
-    margin: 0;
-    padding: 10px;
-    font-size: 19px;
+  margin: 0;
+  padding: 10px;
+  font-size: 19px;
 }

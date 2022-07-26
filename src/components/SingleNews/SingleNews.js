@@ -8,32 +8,28 @@ export default function SingleNews() {
   useEffect(() => {
     const fetchData = async () => {
       const res = await axios(
-        "https://newsapi.org/v2/everything?q=developer&apiKey=4e2552b196c0470baff20d4fc4a506d9"
+        "https://dev.to/api/articles/latest?per_page=50&tag=react"
       );
-      setNews(res.data.articles);
+
+      setNews(res.data);
     };
     fetchData();
-    document.getElementsByClassName("hover").onmouseleave = () => {
-      document.getElementsByClassName("hover").remove();
-    };
   }, []);
-
-  console.log(news);
 
   return (
     <>
       {news.map((article, id) => {
-        let day = new Date(article.publishedAt).toLocaleDateString("en-gb", {
+        let day = new Date(article.created_at).toLocaleDateString("en-gb", {
           day: "numeric",
         });
-        let month = new Date(article.publishedAt).toLocaleDateString("en-gb", {
+        let month = new Date(article.created_at).toLocaleDateString("en-gb", {
           month: "short",
         });
         return (
           <figure key={id} className="snip1312">
             <div className="image">
               {" "}
-              <img src={article.urlToImage} alt="news" />
+              <img src={article.social_image} alt="news" />
             </div>
             <figcaption>
               <div className="date">
@@ -46,7 +42,7 @@ export default function SingleNews() {
                 <div className="author">
                   <i className="fa-solid fa-user-pen"></i>
                   Author:
-                  {" " + article.author}
+                  {" " + article.user.username}
                 </div>
               </footer>
             </figcaption>

@@ -1,15 +1,15 @@
 .header-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-logo img {
-    margin-left: 20px;
-    height: 50px;
+  margin-left: 20px;
+  height: 50px;
 }
 
 .header-logo h1 {
-    margin-left: 10px;
-    color: #61dbfb;
+  margin-left: 10px;
+  color: #61dbfb;
 }

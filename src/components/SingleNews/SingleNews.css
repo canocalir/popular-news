@@ -2,106 +2,105 @@
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 
 figure.snip1312 {
-    display: flex;
-    font-family: 'Raleway', Arial, sans-serif;
-    position: relative;
-    overflow: hidden;
-    min-height: 400px;
-    height: 18%;
-    background-color: #ffffff;
-    color: #000000;
-    text-align: left;
-    font-size: 16px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-    
-  }
-  figure.snip1312 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  figure.snip1312 img {
-    width: 100%;
-    vertical-align: top;
-  }
-  figure.snip1312 figcaption {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    right: 15px;
-    padding: 15px 15px 30px;
-    background-color: #ffffff;
-  }
-  figure.snip1312 .date {
-    background-color: #7f8c8d;
-    top: 15px;
-    color: #fff;
-    left: 15px;
-    min-height: 48px;
-    min-width: 48px;
-    position: absolute;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  figure.snip1312 .date span {
-    display: block;
-    line-height: 24px;
-  }
-  figure.snip1312 .date .month {
-    font-size: 14px;
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-  figure.snip1312 h3,
-  figure.snip1312 p {
-    margin: 0;
-    padding: 0;
-  }
-  figure.snip1312 h3 {
-    min-height: 50px;
-    margin-bottom: 10px;
-    margin-left: 60px;
-    display: inline-block;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  figure.snip1312 p {
-    font-size: 0.8em;
-    margin-bottom: 20px;
-    line-height: 1.6em;
-  }
-  figure.snip1312 footer {
-    padding: 0 25px;
-    background-color: #667273;
-    color: #e6e6e6;
-    font-size: 0.8em;
-    line-height: 30px;
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
-  figure.snip1312 footer > div {
-    display: inline-block;
-    margin-left: 10px;
-  }
-  figure.snip1312 footer i {
-    color: rgba(255, 255, 255, 0.2);
-    margin-right: 5px;
-  }
-  figure.snip1312 a {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    z-index: 1;
-  }
-  figure.snip1312:hover img,
-  figure.snip1312.hover img {
-    -webkit-transform: scale(1.15);
-    transform: scale(1.15);
-  }
+  display: flex;
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+  height: 18%;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip1312 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+figure.snip1312 img {
+  width: 100%;
+  vertical-align: top;
+}
+figure.snip1312 figcaption {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  padding: 15px 15px 30px;
+  background-color: #ffffff;
+}
+figure.snip1312 .date {
+  background-color: #7f8c8d;
+  top: 15px;
+  color: #fff;
+  left: 15px;
+  min-height: 48px;
+  min-width: 48px;
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+figure.snip1312 .date span {
+  display: block;
+  line-height: 24px;
+}
+figure.snip1312 .date .month {
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+figure.snip1312 h3,
+figure.snip1312 p {
+  margin: 0;
+  padding: 0;
+}
+figure.snip1312 h3 {
+  min-height: 50px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+figure.snip1312 p {
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  line-height: 1.6em;
+}
+figure.snip1312 footer {
+  padding: 0 25px;
+  background-color: #667273;
+  color: #e6e6e6;
+  font-size: 0.8em;
+  line-height: 30px;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+figure.snip1312 footer > div {
+  display: inline-block;
+  margin-left: 10px;
+}
+figure.snip1312 footer i {
+  color: rgba(255, 255, 255, 0.2);
+  margin-right: 5px;
+}
+figure.snip1312 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+figure.snip1312:hover img,
+figure.snip1312.hover img {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
