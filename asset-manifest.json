@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/popular-news/static/css/main.04a2cf47.css",
-    "main.js": "/popular-news/static/js/main.a72c98f6.js",
-    "static/js/787.50730bbf.chunk.js": "/popular-news/static/js/787.50730bbf.chunk.js",
+    "main.css": "/popular-news/static/css/main.f75c0d8e.css",
+    "main.js": "/popular-news/static/js/main.e19c3f76.js",
     "static/media/React-icon.png": "/popular-news/static/media/React-icon.8a6fc0a24a800d1e0f4a.png",
     "index.html": "/popular-news/index.html",
-    "main.04a2cf47.css.map": "/popular-news/static/css/main.04a2cf47.css.map",
-    "main.a72c98f6.js.map": "/popular-news/static/js/main.a72c98f6.js.map",
-    "787.50730bbf.chunk.js.map": "/popular-news/static/js/787.50730bbf.chunk.js.map"
+    "main.f75c0d8e.css.map": "/popular-news/static/css/main.f75c0d8e.css.map",
+    "main.e19c3f76.js.map": "/popular-news/static/js/main.e19c3f76.js.map"
   },
   "entrypoints": [
-    "static/css/main.04a2cf47.css",
-    "static/js/main.a72c98f6.js"
+    "static/css/main.f75c0d8e.css",
+    "static/js/main.e19c3f76.js"
   ]
 }
