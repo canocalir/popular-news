@@ -62,10 +62,19 @@
   .btn-search:focus ~ .input-search {
     width: 150px;
   }
+
+  .input-search:focus {
+    width: 150px;
+  }
+
   .input-search::placeholder {
     color: rgba(255, 255, 255, 0.5);
     font-size: 10px;
     letter-spacing: 2px;
     font-weight: 100;
+  }
+
+  .btn-search {
+    font-size: 15px;
   }
 }

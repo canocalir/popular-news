@@ -9,7 +9,7 @@ export default function SearchBar({handleSearch}) {
         onChange={(event) => handleSearch(event)}
         type="text"
         className="input-search"
-        placeholder="Type to Search..."
+        placeholder="Type to Search.."
       />
     </div>
   );
